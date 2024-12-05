@@ -14,7 +14,7 @@ This project implements a multi-class multi-label classifier that can detect 10 
 10. RWBL - Red-winged Blackbird (Agelaius phoeniceus)
 
 # Contributors
-- [Nadia Ahmed]()
+- [Nadia Ahmed](https://github.com/nadianahmed)
 - [Bardia Parmoun](https://github.com/bardia-p)
 - [Huda Sheikh]()
 - [Prianna Rahman](https://github.com/priannar)
