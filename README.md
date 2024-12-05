@@ -16,20 +16,20 @@ This project implements a multi-class multi-label classifier that can detect 10 
 # Contributors
 - [Nadia Ahmed](https://github.com/nadianahmed)
 - [Bardia Parmoun](https://github.com/bardia-p)
-- [Huda Sheikh]()
+- [Huda Sheikh](https://github.com/hudasheikhcu)
 - [Prianna Rahman](https://github.com/priannar)
 
 # Data
 
-The data used for project was collected over 3 years: 2021, 2022, 2023. The data for each year included near 3000 1-minute recordings of these birds in 11 different locations. Each recording included 1 or multiple bird types.
+The data used for the project was collected over 3 years: 2021, 2022, 2023. The data for each year included nearly 3000 1-minute recordings of these birds in 11 different locations. Each recording included 1 or multiple bird types.
 
-*NOTE:* the data were provided both in `.mp3` format for the audio recordings and in the `.png` format for the spectrograms.
+*NOTE:* The data was provided in both `.mp3` format for the audio recordings and in the `.png` format for the spectrograms.
 
 For a detailed explanation of the problem please read the following [document](documents/SYSC5405-project-overview-v13.pdf).
 
 # Pre-Processing
 
-In order to ensure that the model's performance was optimal, the team performed a lot of pre-processing on the given audio data. This included, removing the background noise from the audio and normalizing the bird sounds. These pre-processing scripts are located at the [pre-processing scripts](scripts/Pre-Processing) folder.
+To ensure that the model's performance was optimal, the team performed a lot of pre-processing on the given audio data. This included removing the background noise from the audio and normalizing the bird sounds. These pre-processing scripts are in the [pre-processing scripts](scripts/Pre-Processing) folder.
 
 Here is an example of the pre-processing results:
 
@@ -54,11 +54,11 @@ For a detailed description of our design please review the following [design rep
 
 # Model Implementation
 
-To view a detailed implementaton of our models please navigate to the following [bird_classifer](bird_classifier.ipynb) Jupyter notebook!
+To view our models' detailed implementation, please navigate to the following [bird_classifer](bird_classifier.ipynb) Jupyter notebook!
 
 # Performance
 
-The team performed 5-fold crossvalidation on the data and was able to obtain a **mean F1 score of 0.592 with a standard deviation of 0.012**.
+The team performed 5-fold cross-validation on the data and was able to obtain a **mean F1 score of 0.592 with a standard deviation of 0.012**.
 
 Here is a graph detailing the performance metrics of each individual model:
 
