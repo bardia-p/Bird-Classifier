@@ -2,6 +2,8 @@
 % https://www.mathworks.com/matlabcentral/answers/463016-create-a-spectrogram-from-wav-file
 % https://www.mathworks.com/matlabcentral/answers/320944-proper-butterworth-bandpass-filter
 
+% This code removes (reduces) the noise present in the given audio recordings, and generates the spectrograms based on the audio (not from .csv files)
+
 input_folder = '[insert path]';
 output_folder_audio = '[insert path]';
 output_folder_spec = '[insert path]';
