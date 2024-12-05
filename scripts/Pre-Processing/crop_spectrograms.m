@@ -1,3 +1,5 @@
+% This code removes the white borders from the spectrogram .png files created by audio_noiseRemoval.m
+
 input_folder = '[insert path]';
 output_folder = '[insert path]';
 
