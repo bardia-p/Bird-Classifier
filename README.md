@@ -50,7 +50,7 @@ For the solution, the team decided to utilize Feed-Forward Neural Networks (FNNs
 
 <img src="documents/report_src/figures/approach_diagram.jpg">
 
-For a detailed description of our design please review the following [design report](documents/SYSC5405_Group3_Project_Report.pdf)
+For a detailed description of our design please review the following [project report](documents/SYSC5405_Group3_Project_Report.pdf)
 
 ## Model Implementation
 
